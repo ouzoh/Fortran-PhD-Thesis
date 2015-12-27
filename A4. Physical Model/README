@@ -1,0 +1,13 @@
+The directory contains the physical model.
+The command for running the executable code  ./*.exe
+
+physical_model.f90 combines exp-6 and cos(2*tors): Repulsion and dispersion rescale
+
+files needed:-
+    1.physical_model.f90
+    2.h03adfe.exe [nag library for combination; finds nearest neighbour]:inputs
+      3.g02ddfe.f [nag library for linear regression]:built in code
+    4.gavezzotti_para.d [Gavezzotti's starting parameters]:inputs
+    5.output from running extract_mol2.sh on gaussian .log file
+        A. conformations in mol2 format: zmat*.mol2
+        B. summary.r file 

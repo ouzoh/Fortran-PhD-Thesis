@@ -1,0 +1,14 @@
+The directory contains the repulsion model.
+The command for running the executable code  ./*.exe
+
+repul_model.f90 is just exp-6: Repulsion rescale only
+
+files needed:-
+    1.repul_model.f90 
+    2.h03adfe.exe [nag library for combination; finds nearest neighbour]:inputs
+      3.g02ddfe.f [nag library for linear regression]:built in code
+    4.gavezzotti_para.d: Gavezzotti's starting parameters:inputs
+    5.output from running extract_mol2.sh on gaussian .log file
+        A. conformations in mol2 format: zmat*.mol2
+        B. summary.r file
+
