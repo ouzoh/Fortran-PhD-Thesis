@@ -24,7 +24,7 @@ character(len=10) :: filename
 !for pharmaceuticals (paper) & Modelling molecular flexibility for    !
 !crystal structure prediction (thesis)                                !
 !Files needed in conjunction with code:                               !
-!                        1. summary.r         -> ab-initio data       !
+!                        1. summary.r        -> ab-initio data        !
 !                        2. 2 nag libraries                           !
 !                             i. g02ddfe      -> linear regression    !
 !#####################################################################!
